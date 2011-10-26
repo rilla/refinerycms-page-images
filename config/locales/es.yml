@@ -1,0 +1,17 @@
+es:
+  js:
+    admin:
+      page_images:
+        add_caption: Añadir pie de foto
+        done: Hecho
+  plugins:
+    page_images:
+      title: Fotogalería
+      description: Page Images allows you to relate one or more images to any page in Refinery which makes it really easy for you to create simple image galleries with lightbox style popups on the front end page views.
+  admin:
+    pages:
+      form_page_parts:
+        images: "Fotogalería"
+      tabs:
+        images_bar:
+          add: Añadir imagen

@@ -26,6 +26,7 @@ module Refinery
       def self.register(tab)
         tab.name = "images"
         tab.partial = "/admin/pages/tabs/images"
+        tab.only = "Product"
       end
 
       config.after_initialize do
