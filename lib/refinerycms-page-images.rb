@@ -43,6 +43,7 @@ module Refinery
         ::Refinery::Plugin.register do |plugin|
           plugin.name = "page_images"
           plugin.hide_from_menu = true
+          plugin.menu_match = /^\/?(admin|refinery)\/page_images/
         end
       end
     end
